@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>assets.wcamper.com Inspection Catalog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="top-nav">
+        <a href="./index.html">home</a>
+        <a href="./brand/index.html">brand</a>
+        <a href="./footer/index.html">footer</a>
+        <a href="./og-social/index.html">og-social</a>
+        <a href="./icons/index.html">icons</a>
+      </div>
+      <h1>assets.wcamper.com Inspection Catalog</h1>
+      <p class="lead">
+        이 저장소는 공통 static asset host 기준선이며, 아래 페이지는 사람 검수용 inspection UI다.
+      </p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="section card">
+      <h2>Purpose</h2>
+      <p class="lead"><strong>draft inspection deployment</strong> | some assets are <strong>placeholder-only</strong></p>
+      <ul>
+        <li>본체 역할: 공통 정적 asset 배포 호스트</li>
+        <li>보조 역할: category별 자산 검수/확인용 catalog</li>
+        <li>주의: placeholder-only 자산은 runtime asset이 아니다</li>
+      </ul>
+      <div class="meta">
+        <div>Raw manifest: <a href="./assets-manifest.json" class="mono">/assets-manifest.json</a></div>
+        <div class="mono">Current manifest summary: approved=0, draft=10, deprecated=0</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Categories</h2>
+      <div class="grid grid-2">
+        <article class="card">
+          <h3><a href="./brand/index.html">brand</a></h3>
+          <p class="muted">logo / favicon / app icon / brand OG</p>
+          <div class="mono">runtime entries: 3</div>
+          <div class="mono">placeholder spec only: 1</div>
+        </article>
+        <article class="card">
+          <h3><a href="./footer/index.html">footer</a></h3>
+          <p class="muted">attribution logos and fixed path policy</p>
+          <div class="mono">runtime entries: 1</div>
+          <div class="mono">placeholder spec only: 1</div>
+        </article>
+        <article class="card">
+          <h3><a href="./og-social/index.html">og-social</a></h3>
+          <p class="muted">global OG template and site-specific blocks</p>
+          <div class="mono">runtime entries: 1</div>
+          <div class="mono">placeholder spec only: 4</div>
+        </article>
+        <article class="card">
+          <h3><a href="./icons/index.html">icons</a></h3>
+          <p class="muted">runtime-ready line icon set</p>
+          <div class="mono">runtime entries: 5</div>
+          <div class="mono">placeholder guide dirs: 2</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section card">
+      <h2>Status Legend</h2>
+      <div class="legend">
+        <span class="badge approved">approved</span>
+        <span class="badge draft">draft</span>
+        <span class="badge deprecated">deprecated</span>
+        <span class="badge placeholder">placeholder spec only</span>
+      </div>
+      <p class="muted">현재 manifest에는 `draft` 상태만 있으며, placeholder-only 항목은 각 category 페이지에 별도 표기한다.</p>
+    </section>
+  </main>
+</body>
+</html>

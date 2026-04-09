@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Footer Attribution Inspection</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="top-nav">
+        <a href="../index.html">home</a>
+        <a href="../brand/index.html">brand</a>
+        <a href="./index.html">footer</a>
+        <a href="../og-social/index.html">og-social</a>
+        <a href="../icons/index.html">icons</a>
+      </div>
+      <h1>Footer Attribution Assets</h1>
+      <p class="lead">고정 경로 기준 footer attribution 검수 페이지</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="section grid grid-2">
+      <article class="card">
+        <h3>DreamLabs Default Logo</h3>
+        <span class="badge draft">draft</span>
+        <div class="preview">
+          <img src="/footer/dreamlabs/dreamlabs-logo-default.svg" alt="dreamlabs footer logo">
+        </div>
+        <div class="meta">
+          <div class="mono">asset id: footer.dreamlabs.logo.default.svg</div>
+          <div class="mono">path: /footer/dreamlabs/dreamlabs-logo-default.svg</div>
+          <div class="mono">status: draft</div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Camprogrammer Default Logo</h3>
+        <span class="badge placeholder">placeholder spec only</span>
+        <div class="preview muted">No runtime file</div>
+        <div class="meta">
+          <div class="mono">asset id: footer.camprogrammer.logo.default.svg</div>
+          <div class="mono">path: /footer/camprogrammer/camprogrammer-logo-default.svg</div>
+          <div class="mono">spec: /footer/camprogrammer/camprogrammer-logo-default.placeholder.md</div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section card">
+      <h2>Attribution Preview Block (Example)</h2>
+      <p class="muted">고정 경로를 사용한 footer block 예시. camprogrammer는 현재 placeholder-only 상태다.</p>
+
+      <div class="surface surface-light">
+        <strong>Light Surface</strong>
+        <div style="display:flex;gap:16px;align-items:center;margin-top:10px;flex-wrap:wrap;">
+          <img src="/footer/dreamlabs/dreamlabs-logo-default.svg" alt="dreamlabs on light" style="max-height:44px;">
+          <span class="mono">camprogrammer: placeholder spec only</span>
+        </div>
+      </div>
+
+      <div class="surface surface-dark">
+        <strong>Dark Surface</strong>
+        <div style="display:flex;gap:16px;align-items:center;margin-top:10px;flex-wrap:wrap;">
+          <img src="/footer/dreamlabs/dreamlabs-logo-default.svg" alt="dreamlabs on dark" style="max-height:44px;background:#fff;border-radius:6px;padding:4px;">
+          <span class="mono">camprogrammer: placeholder spec only</span>
+        </div>
+      </div>
+
+      <div class="meta">
+        <div class="mono">fixed path: /footer/dreamlabs/dreamlabs-logo-default.svg</div>
+        <div class="mono">fixed path: /footer/camprogrammer/camprogrammer-logo-default.svg</div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
