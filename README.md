@@ -23,6 +23,15 @@
 - 미확정 자산은 placeholder 상태로 명시하고 runtime 반영 완료로 취급하지 않는다.
 - placeholder-only 자산은 preview/registry 문맥용이며 runtime-ready final asset이 아니다.
 
+## Current Source Mapping (Key Runtime Assets)
+- Footer attribution PNG는 `com-wcamper-spotcare-landing`의 `_data/landing.yml` 기준 경로를 source로 사용한다.
+  - `/assets/img/support/dreamlabs-logo.png`
+  - `/assets/img/support/camprogrammer-logo.png`
+- Brand default favicon PNG는 `com-wcamper-www-landing`의 `_includes/site-head.html` 기준 경로를 source로 사용한다.
+  - `/assets/favicon-32.png`
+- Brand primary logo PNG는 `com-wcamper-www-landing`의 실제 사용 경로를 source로 사용한다.
+  - `/assets/img/brand/wcamper-ci-logo-v2.png`
+
 ## Planned Distribution Target
 - 공통 배포 도메인 후보: `assets.wcamper.com`
 - 현재는 bootstrap 단계이며, 실제 운영 배포 완료 또는 도메인 연결 완료 상태가 아니다.

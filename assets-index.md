@@ -8,12 +8,12 @@
 - `ui-patterns`: 텍스처, 배경, 구분선
 
 ## P0 Assets (Bootstrap Priority)
-- `brand.wcamper.logo.primary.svg`
-- `brand.wcamper.favicon.default.ico`
+- `brand.wcamper.logo.primary.png`
+- `brand.wcamper.favicon.default.png`
 - `brand.wcamper.appicon.512.png`
 - `brand.wcamper.og.default.1200x630.webp`
-- `footer.dreamlabs.logo.default.svg`
-- `footer.camprogrammer.logo.default.svg`
+- `footer.dreamlabs.logo.default.png`
+- `footer.camprogrammer.logo.default.png`
 - `og.global.default.1200x630.webp`
 - `icons.line.nav.menu.svg`
 - `icons.line.action.external-link.svg`
