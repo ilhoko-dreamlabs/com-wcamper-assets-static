@@ -1,79 +1,68 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Footer Attribution Inspection</title>
+  <title>assets.wcamper.com | Footer attribution inspection</title>
   <link rel="stylesheet" href="../styles.css">
+  <script src="../inspection.js" defer></script>
 </head>
-<body>
-  <header>
-    <div class="wrap">
-      <div class="top-nav">
+<body data-page="footer">
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand-lockup" href="../index.html">
+        <img src="/brand/wcamper/logos/wcamper-symbol-card.svg" alt="">
+        <div>
+          <strong>Footer attribution</strong>
+          <span>DreamLabs · 캠핑하는 프로그래머</span>
+        </div>
+      </a>
+      <nav class="top-nav" aria-label="inspection navigation">
         <a href="../index.html">home</a>
         <a href="../brand/index.html">brand</a>
         <a href="./index.html">footer</a>
         <a href="../og-social/index.html">og-social</a>
         <a href="../icons/index.html">icons</a>
-      </div>
-      <h1>Footer Attribution Assets</h1>
-      <p class="lead">고정 경로 기준 footer attribution 검수 페이지</p>
+      </nav>
     </div>
   </header>
 
   <main class="wrap">
-    <section class="section grid grid-2">
-      <article class="card">
-        <h3>DreamLabs Default Logo</h3>
-        <span class="badge draft">draft</span>
-        <div class="preview">
-          <img src="/footer/dreamlabs/dreamlabs-logo-default.png" alt="dreamlabs footer logo">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">footer assets</span>
+          <h1>Footer attribution draft preview</h1>
+          <p class="lead">공통 footer에서 사용하는 attribution 로고의 default/light variant를 확인하는 inspection page입니다.</p>
         </div>
-        <div class="meta">
-          <div class="mono">asset id: footer.dreamlabs.logo.default.png</div>
-          <div class="mono">path: /footer/dreamlabs/dreamlabs-logo-default.png</div>
-          <div class="mono">status: draft</div>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3>Camprogrammer Default Logo</h3>
-        <span class="badge draft">draft</span>
-        <div class="preview">
-          <img src="/footer/camprogrammer/camprogrammer-logo-default.png" alt="camprogrammer footer logo">
-        </div>
-        <div class="meta">
-          <div class="mono">asset id: footer.camprogrammer.logo.default.png</div>
-          <div class="mono">path: /footer/camprogrammer/camprogrammer-logo-default.png</div>
-          <div class="mono">status: draft</div>
-        </div>
-      </article>
+        <aside class="hero-aside">
+          <article class="callout">
+            <h3>Draft note</h3>
+            <p class="lead">현재 자산은 live visual review 전 단계이므로 approved로 승격하지 않습니다.</p>
+          </article>
+        </aside>
+      </div>
     </section>
 
-    <section class="section card">
-      <h2>Attribution Preview Block (Example)</h2>
-      <p class="muted">고정 경로를 사용한 footer block 예시.</p>
-
-      <div class="surface surface-light">
-        <strong>Light Surface</strong>
-        <div style="display:flex;gap:16px;align-items:center;margin-top:10px;flex-wrap:wrap;">
-          <img src="/footer/dreamlabs/dreamlabs-logo-default.png" alt="dreamlabs on light" style="max-height:44px;">
-          <img src="/footer/camprogrammer/camprogrammer-logo-default.png" alt="camprogrammer on light" style="max-height:44px;">
+    <section class="section">
+      <div id="page-error"></div>
+      <div class="section-heading">
+        <div>
+          <h2>Attribution assets</h2>
         </div>
+        <p>light variant는 dark surface 대응용, default variant는 일반 surface 대응용으로 봅니다.</p>
       </div>
+      <div id="footer-asset-grid" class="grid grid-2"></div>
+    </section>
 
-      <div class="surface surface-dark">
-        <strong>Dark Surface</strong>
-        <div style="display:flex;gap:16px;align-items:center;margin-top:10px;flex-wrap:wrap;">
-          <img src="/footer/dreamlabs/dreamlabs-logo-default.png" alt="dreamlabs on dark" style="max-height:44px;background:#fff;border-radius:6px;padding:4px;">
-          <img src="/footer/camprogrammer/camprogrammer-logo-default.png" alt="camprogrammer on dark" style="max-height:44px;background:#fff;border-radius:6px;padding:4px;">
+    <section class="section">
+      <div class="section-heading">
+        <div>
+          <h2>Surface preview</h2>
         </div>
+        <p>실제 footer block에서 light/dark surface 대응을 빠르게 확인합니다.</p>
       </div>
-
-      <div class="meta">
-        <div class="mono">fixed path: /footer/dreamlabs/dreamlabs-logo-default.png</div>
-        <div class="mono">fixed path: /footer/camprogrammer/camprogrammer-logo-default.png</div>
-      </div>
+      <div id="footer-surface-preview" class="surface-row"></div>
     </section>
   </main>
 </body>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="96" viewBox="0 0 420 96" role="img" aria-label="캠핑하는 프로그래머 logo">
+
+<circle cx="38" cy="44" r="22" fill="#2A4B3C"/>
+<path d="M28 46 l9 9 l17 -24" fill="none" stroke="#F3ECD5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="76" y="46" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="#2A4B3C">캠핑하는 프로그래머</text>
+<text x="78" y="76" font-family="Inter, Arial, sans-serif" font-size="14" fill="#6D7A70" opacity="0.82">builder / creator</text>
+</svg>

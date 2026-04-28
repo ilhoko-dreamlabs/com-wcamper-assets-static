@@ -1,172 +1,1416 @@
 {
+  "schema": "wcamper-assets-manifest-v1",
+  "generated": "2026-04-29",
+  "source_pack": "wcamper-brand-assets-v1-draft.zip",
+  "status": "draft",
   "assets": [
     {
-      "id": "footer.dreamlabs.logo.default.png",
-      "category": "footer",
-      "status": "draft",
-      "version": "0.1.2-draft",
-      "format": "png",
-      "path": "footer/dreamlabs/dreamlabs-logo-default.png",
-      "usage": "footer attribution DreamLabs 기본 로고",
-      "owner": "wcamper-common",
-      "source_type": "local-repo",
-      "source_ref": "C:/dreamlabs/github/com-wcamper-spotcare-landing/assets/img/support/dreamlabs-logo.png",
-      "normalized_from": "copy-only (source config: C:/dreamlabs/github/com-wcamper-spotcare-landing/_data/landing.yml)",
-      "notes": "fixed attribution path"
-    },
-    {
-      "id": "footer.camprogrammer.logo.default.png",
-      "category": "footer",
-      "status": "draft",
-      "version": "0.1.2-draft",
-      "format": "png",
-      "path": "footer/camprogrammer/camprogrammer-logo-default.png",
-      "usage": "footer attribution 캠핑하는 프로그래머 기본 로고",
-      "owner": "wcamper-common",
-      "source_type": "local-repo",
-      "source_ref": "C:/dreamlabs/github/com-wcamper-spotcare-landing/assets/img/support/camprogrammer-logo.png",
-      "normalized_from": "copy-only (source config: C:/dreamlabs/github/com-wcamper-spotcare-landing/_data/landing.yml)",
-      "notes": "fixed attribution path"
-    },
-    {
-      "id": "brand.wcamper.favicon.default.png",
+      "id": "brand.wcamper.app-icons.wcamper-app-icon-1024.png",
       "category": "brand",
       "status": "draft",
-      "version": "0.1.2-draft",
+      "version": "1.0.0-draft",
       "format": "png",
-      "path": "brand/wcamper/favicon/wcamper-favicon-default.png",
-      "usage": "wcamper 공통 favicon 기본값",
+      "path": "/brand/wcamper/app-icons/wcamper-app-icon-1024.png",
+      "usage": [
+        "brand",
+        "app-icon"
+      ],
       "owner": "wcamper-common",
-      "source_type": "local-repo",
-      "source_ref": "C:/dreamlabs/github/com-wcamper-www-landing/assets/favicon-32.png",
-      "normalized_from": "copy-only (source config: C:/dreamlabs/github/com-wcamper-www-landing/_includes/site-head.html)",
-      "notes": "default favicon path from www landing"
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/app-icons/wcamper-app-icon-1024.png",
+      "placeholder_only": false,
+      "notes": ""
     },
     {
-      "id": "brand.wcamper.logo.primary.png",
+      "id": "brand.wcamper.app-icons.wcamper-app-icon-512.png",
       "category": "brand",
       "status": "draft",
-      "version": "0.1.2-draft",
+      "version": "1.0.0-draft",
       "format": "png",
-      "path": "brand/wcamper/logos/wcamper-logo-primary.png",
-      "usage": "wcamper 공통 primary 로고",
+      "path": "/brand/wcamper/app-icons/wcamper-app-icon-512.png",
+      "usage": [
+        "brand",
+        "app-icon"
+      ],
       "owner": "wcamper-common",
-      "source_type": "local-repo",
-      "source_ref": "C:/dreamlabs/github/com-wcamper-www-landing/assets/img/brand/wcamper-ci-logo-v2.png",
-      "normalized_from": "copy-only",
-      "notes": "primary logo mapped to live www source"
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/app-icons/wcamper-app-icon-512.png",
+      "placeholder_only": false,
+      "notes": ""
     },
     {
-      "id": "brand.wcamper.appicon.512.png",
+      "id": "brand.wcamper.app-icons.wcamper-icon-1024.png",
       "category": "brand",
       "status": "draft",
-      "version": "0.1.1-draft",
+      "version": "1.0.0-draft",
       "format": "png",
-      "path": "brand/wcamper/app-icons/wcamper-app-icon-512.png",
-      "usage": "앱/웹앱 아이콘 512 기준",
+      "path": "/brand/wcamper/app-icons/wcamper-icon-1024.png",
+      "usage": [
+        "brand",
+        "app-icon"
+      ],
       "owner": "wcamper-common",
-      "source_type": "live-site",
-      "source_ref": "https://www.wcamper.com/assets/img/brand/wcamper-ci-logo-v2.png",
-      "normalized_from": "resized from 1400x1400 PNG to 512x512 PNG",
-      "notes": "derived from live brand master mark"
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/app-icons/wcamper-icon-1024.png",
+      "placeholder_only": false,
+      "notes": ""
     },
     {
-      "id": "brand.wcamper.og.default.1200x630.webp",
+      "id": "brand.wcamper.app-icons.wcamper-icon-180.png",
       "category": "brand",
       "status": "draft",
-      "version": "0.1.1-draft",
-      "format": "webp",
-      "path": "brand/wcamper/social/wcamper-og-default-1200x630.webp",
-      "usage": "브랜드 기본 OG 이미지",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/app-icons/wcamper-icon-180.png",
+      "usage": [
+        "brand",
+        "app-icon"
+      ],
       "owner": "wcamper-common",
-      "source_type": "live-site",
-      "source_ref": "https://www.wcamper.com/assets/og.png",
-      "normalized_from": "converted PNG(1200x630) to WEBP(1200x630)",
-      "notes": "runtime-safe webp normalized from live og asset"
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/app-icons/wcamper-icon-180.png",
+      "placeholder_only": false,
+      "notes": ""
     },
     {
-      "id": "og.global.default.1200x630.webp",
+      "id": "brand.wcamper.app-icons.wcamper-icon-192.png",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/app-icons/wcamper-icon-192.png",
+      "usage": [
+        "brand",
+        "app-icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/app-icons/wcamper-icon-192.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.app-icons.wcamper-icon-512.png",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/app-icons/wcamper-icon-512.png",
+      "usage": [
+        "brand",
+        "app-icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/app-icons/wcamper-icon-512.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.ci.wcamper-identity-guidelines-board.png",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/ci/wcamper-identity-guidelines-board.png",
+      "usage": [
+        "brand",
+        "ci-board"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/ci/wcamper-identity-guidelines-board.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.ci.wcamper-identity-guidelines-board.svg",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/brand/wcamper/ci/wcamper-identity-guidelines-board.svg",
+      "usage": [
+        "brand",
+        "ci-board"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/ci/wcamper-identity-guidelines-board.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.favicon.favicon-16.png",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/favicon/favicon-16.png",
+      "usage": [
+        "brand",
+        "favicon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/favicon/favicon-16.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.favicon.favicon-32.png",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/favicon/favicon-32.png",
+      "usage": [
+        "brand",
+        "favicon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/favicon/favicon-32.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.favicon.favicon.ico",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "ico",
+      "path": "/brand/wcamper/favicon/favicon.ico",
+      "usage": [
+        "brand",
+        "favicon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/favicon/favicon.ico",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.favicon.wcamper-icon-16.png",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/favicon/wcamper-icon-16.png",
+      "usage": [
+        "brand",
+        "favicon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/favicon/wcamper-icon-16.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.favicon.wcamper-icon-32.png",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/favicon/wcamper-icon-32.png",
+      "usage": [
+        "brand",
+        "favicon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/favicon/wcamper-icon-32.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.favicon.wcamper-icon-48.png",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/favicon/wcamper-icon-48.png",
+      "usage": [
+        "brand",
+        "favicon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/favicon/wcamper-icon-48.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.favicon.wcamper-icon-64.png",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/favicon/wcamper-icon-64.png",
+      "usage": [
+        "brand",
+        "favicon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/favicon/wcamper-icon-64.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.logos.wcamper-logo-mono-black.png",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/logos/wcamper-logo-mono-black.png",
+      "usage": [
+        "brand",
+        "logo"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/logos/wcamper-logo-mono-black.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.logos.wcamper-logo-mono-black.svg",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/brand/wcamper/logos/wcamper-logo-mono-black.svg",
+      "usage": [
+        "brand",
+        "logo"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/logos/wcamper-logo-mono-black.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.logos.wcamper-logo-mono-white.png",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/logos/wcamper-logo-mono-white.png",
+      "usage": [
+        "brand",
+        "logo"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/logos/wcamper-logo-mono-white.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.logos.wcamper-logo-mono-white.svg",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/brand/wcamper/logos/wcamper-logo-mono-white.svg",
+      "usage": [
+        "brand",
+        "logo"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/logos/wcamper-logo-mono-white.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.logos.wcamper-logo-primary-on-dark.png",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/logos/wcamper-logo-primary-on-dark.png",
+      "usage": [
+        "brand",
+        "logo"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/logos/wcamper-logo-primary-on-dark.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.logos.wcamper-logo-primary-on-dark.svg",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/brand/wcamper/logos/wcamper-logo-primary-on-dark.svg",
+      "usage": [
+        "brand",
+        "logo"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/logos/wcamper-logo-primary-on-dark.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.logos.wcamper-logo-primary.png",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/logos/wcamper-logo-primary.png",
+      "usage": [
+        "brand",
+        "logo"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/logos/wcamper-logo-primary.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.logos.wcamper-logo-primary.svg",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/brand/wcamper/logos/wcamper-logo-primary.svg",
+      "usage": [
+        "brand",
+        "logo"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/logos/wcamper-logo-primary.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.logos.wcamper-symbol-card.png",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/logos/wcamper-symbol-card.png",
+      "usage": [
+        "brand",
+        "logo"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/logos/wcamper-symbol-card.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.logos.wcamper-symbol-card.svg",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/brand/wcamper/logos/wcamper-symbol-card.svg",
+      "usage": [
+        "brand",
+        "logo"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/logos/wcamper-symbol-card.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.logos.wcamper-symbol-transparent.png",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/logos/wcamper-symbol-transparent.png",
+      "usage": [
+        "brand",
+        "logo"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/logos/wcamper-symbol-transparent.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.logos.wcamper-symbol-transparent.svg",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/brand/wcamper/logos/wcamper-symbol-transparent.svg",
+      "usage": [
+        "brand",
+        "logo"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/logos/wcamper-symbol-transparent.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.logos.wcamper-wordmark.png",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/logos/wcamper-wordmark.png",
+      "usage": [
+        "brand",
+        "logo"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/logos/wcamper-wordmark.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.logos.wcamper-wordmark.svg",
+      "category": "brand",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/brand/wcamper/logos/wcamper-wordmark.svg",
+      "usage": [
+        "brand",
+        "logo"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/logos/wcamper-wordmark.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.og.og-global-default-1200x630.webp",
       "category": "og-social",
       "status": "draft",
-      "version": "0.1.1-draft",
+      "version": "1.0.0-draft",
       "format": "webp",
-      "path": "og-social/templates/og-global-default-1200x630.webp",
-      "usage": "사이트 공통 기본 OG 템플릿",
+      "path": "/brand/wcamper/og/og-global-default-1200x630.webp",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
       "owner": "wcamper-common",
-      "source_type": "live-site",
-      "source_ref": "https://www.wcamper.com/assets/og.png",
-      "normalized_from": "converted PNG(1200x630) to WEBP(1200x630)",
-      "notes": "runtime-safe global template normalized from live og asset"
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/og-global-default-1200x630.webp",
+      "placeholder_only": false,
+      "notes": ""
     },
     {
-      "id": "icons.line.nav.menu.svg",
-      "category": "icons",
+      "id": "brand.wcamper.og.og-guide-default-1200x630.png",
+      "category": "og-social",
       "status": "draft",
-      "version": "0.1.0-draft",
-      "format": "svg",
-      "path": "icons/line/icon-nav-menu.svg",
-      "usage": "네비게이션 메뉴 아이콘",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/og/og-guide-default-1200x630.png",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
       "owner": "wcamper-common",
-      "source_type": "local-repo",
-      "source_ref": "C:/dreamlabs/github/com-wcamper-assets-static/icons/line/icon-nav-menu.svg",
-      "normalized_from": "bootstrap-seed",
-      "notes": "runtime-safe line icon; shape may be refined in future releases"
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/og-guide-default-1200x630.png",
+      "placeholder_only": false,
+      "notes": ""
     },
     {
-      "id": "icons.line.action.external-link.svg",
-      "category": "icons",
+      "id": "brand.wcamper.og.og-guide-default-1200x630.svg",
+      "category": "og-social",
       "status": "draft",
-      "version": "0.1.0-draft",
+      "version": "1.0.0-draft",
       "format": "svg",
-      "path": "icons/line/icon-action-external-link.svg",
-      "usage": "외부 링크 액션 아이콘",
+      "path": "/brand/wcamper/og/og-guide-default-1200x630.svg",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
       "owner": "wcamper-common",
-      "source_type": "local-repo",
-      "source_ref": "C:/dreamlabs/github/com-wcamper-assets-static/icons/line/icon-action-external-link.svg",
-      "normalized_from": "bootstrap-seed",
-      "notes": "runtime-safe line icon; shape may be refined in future releases"
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/og-guide-default-1200x630.svg",
+      "placeholder_only": false,
+      "notes": ""
     },
     {
-      "id": "icons.line.status.info.svg",
-      "category": "icons",
+      "id": "brand.wcamper.og.og-guide-default-1200x630.webp",
+      "category": "og-social",
       "status": "draft",
-      "version": "0.1.0-draft",
-      "format": "svg",
-      "path": "icons/line/icon-status-info.svg",
-      "usage": "상태 정보 아이콘",
+      "version": "1.0.0-draft",
+      "format": "webp",
+      "path": "/brand/wcamper/og/og-guide-default-1200x630.webp",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
       "owner": "wcamper-common",
-      "source_type": "local-repo",
-      "source_ref": "C:/dreamlabs/github/com-wcamper-assets-static/icons/line/icon-status-info.svg",
-      "normalized_from": "bootstrap-seed",
-      "notes": "runtime-safe line icon; shape may be refined in future releases"
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/og-guide-default-1200x630.webp",
+      "placeholder_only": false,
+      "notes": ""
     },
     {
-      "id": "icons.line.status.warning.svg",
-      "category": "icons",
+      "id": "brand.wcamper.og.og-magazine-default-1200x630.png",
+      "category": "og-social",
       "status": "draft",
-      "version": "0.1.0-draft",
-      "format": "svg",
-      "path": "icons/line/icon-status-warning.svg",
-      "usage": "상태 경고 아이콘",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/og/og-magazine-default-1200x630.png",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
       "owner": "wcamper-common",
-      "source_type": "local-repo",
-      "source_ref": "C:/dreamlabs/github/com-wcamper-assets-static/icons/line/icon-status-warning.svg",
-      "normalized_from": "bootstrap-seed",
-      "notes": "runtime-safe line icon; shape may be refined in future releases"
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/og-magazine-default-1200x630.png",
+      "placeholder_only": false,
+      "notes": ""
     },
     {
-      "id": "icons.line.status.error.svg",
+      "id": "brand.wcamper.og.og-magazine-default-1200x630.svg",
+      "category": "og-social",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/brand/wcamper/og/og-magazine-default-1200x630.svg",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/og-magazine-default-1200x630.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.og.og-magazine-default-1200x630.webp",
+      "category": "og-social",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "webp",
+      "path": "/brand/wcamper/og/og-magazine-default-1200x630.webp",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/og-magazine-default-1200x630.webp",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.og.og-partners-default-1200x630.png",
+      "category": "og-social",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/og/og-partners-default-1200x630.png",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/og-partners-default-1200x630.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.og.og-partners-default-1200x630.svg",
+      "category": "og-social",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/brand/wcamper/og/og-partners-default-1200x630.svg",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/og-partners-default-1200x630.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.og.og-partners-default-1200x630.webp",
+      "category": "og-social",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "webp",
+      "path": "/brand/wcamper/og/og-partners-default-1200x630.webp",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/og-partners-default-1200x630.webp",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.og.og-spot-default-1200x630.png",
+      "category": "og-social",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/og/og-spot-default-1200x630.png",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/og-spot-default-1200x630.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.og.og-spot-default-1200x630.svg",
+      "category": "og-social",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/brand/wcamper/og/og-spot-default-1200x630.svg",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/og-spot-default-1200x630.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.og.og-spot-default-1200x630.webp",
+      "category": "og-social",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "webp",
+      "path": "/brand/wcamper/og/og-spot-default-1200x630.webp",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/og-spot-default-1200x630.webp",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.og.og-www-default-1200x630.png",
+      "category": "og-social",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/og/og-www-default-1200x630.png",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/og-www-default-1200x630.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.og.og-www-default-1200x630.svg",
+      "category": "og-social",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/brand/wcamper/og/og-www-default-1200x630.svg",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/og-www-default-1200x630.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.og.og-www-default-1200x630.webp",
+      "category": "og-social",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "webp",
+      "path": "/brand/wcamper/og/og-www-default-1200x630.webp",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/og-www-default-1200x630.webp",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.og.wcamper-og-default-1200x630.png",
+      "category": "og-social",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/brand/wcamper/og/wcamper-og-default-1200x630.png",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/wcamper-og-default-1200x630.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.og.wcamper-og-default-1200x630.svg",
+      "category": "og-social",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/brand/wcamper/og/wcamper-og-default-1200x630.svg",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/wcamper-og-default-1200x630.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "brand.wcamper.og.wcamper-og-default-1200x630.webp",
+      "category": "og-social",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "webp",
+      "path": "/brand/wcamper/og/wcamper-og-default-1200x630.webp",
+      "usage": [
+        "og",
+        "social-preview"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "brand/wcamper/og/wcamper-og-default-1200x630.webp",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "css.wcamper-tokens.css",
+      "category": "css",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "css",
+      "path": "/css/wcamper-tokens.css",
+      "usage": [
+        "design-token"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "css/wcamper-tokens.css",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "css.wcamper-tokens.json",
+      "category": "css",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "json",
+      "path": "/css/wcamper-tokens.json",
+      "usage": [
+        "design-token"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "css/wcamper-tokens.json",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "footer.camprogrammer.camprogrammer-logo-default.png",
+      "category": "footer",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/footer/camprogrammer/camprogrammer-logo-default.png",
+      "usage": [
+        "footer-attribution"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "footer/camprogrammer/camprogrammer-logo-default.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "footer.camprogrammer.camprogrammer-logo-default.svg",
+      "category": "footer",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/footer/camprogrammer/camprogrammer-logo-default.svg",
+      "usage": [
+        "footer-attribution"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "footer/camprogrammer/camprogrammer-logo-default.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "footer.camprogrammer.camprogrammer-logo-light.png",
+      "category": "footer",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/footer/camprogrammer/camprogrammer-logo-light.png",
+      "usage": [
+        "footer-attribution"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "footer/camprogrammer/camprogrammer-logo-light.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "footer.camprogrammer.camprogrammer-logo-light.svg",
+      "category": "footer",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/footer/camprogrammer/camprogrammer-logo-light.svg",
+      "usage": [
+        "footer-attribution"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "footer/camprogrammer/camprogrammer-logo-light.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "footer.dreamlabs.dreamlabs-logo-default.png",
+      "category": "footer",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/footer/dreamlabs/dreamlabs-logo-default.png",
+      "usage": [
+        "footer-attribution"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "footer/dreamlabs/dreamlabs-logo-default.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "footer.dreamlabs.dreamlabs-logo-default.svg",
+      "category": "footer",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/footer/dreamlabs/dreamlabs-logo-default.svg",
+      "usage": [
+        "footer-attribution"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "footer/dreamlabs/dreamlabs-logo-default.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "footer.dreamlabs.dreamlabs-logo-light.png",
+      "category": "footer",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/footer/dreamlabs/dreamlabs-logo-light.png",
+      "usage": [
+        "footer-attribution"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "footer/dreamlabs/dreamlabs-logo-light.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "footer.dreamlabs.dreamlabs-logo-light.svg",
+      "category": "footer",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/footer/dreamlabs/dreamlabs-logo-light.svg",
+      "usage": [
+        "footer-attribution"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "footer/dreamlabs/dreamlabs-logo-light.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-action-external-link.png",
       "category": "icons",
       "status": "draft",
-      "version": "0.1.0-draft",
-      "format": "svg",
-      "path": "icons/line/icon-status-error.svg",
-      "usage": "상태 오류 아이콘",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/icons/line/icon-action-external-link.png",
+      "usage": [
+        "icon"
+      ],
       "owner": "wcamper-common",
-      "source_type": "local-repo",
-      "source_ref": "C:/dreamlabs/github/com-wcamper-assets-static/icons/line/icon-status-error.svg",
-      "normalized_from": "bootstrap-seed",
-      "notes": "runtime-safe line icon; shape may be refined in future releases"
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-action-external-link.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-action-external-link.svg",
+      "category": "icons",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/icons/line/icon-action-external-link.svg",
+      "usage": [
+        "icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-action-external-link.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-cleanup.png",
+      "category": "icons",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/icons/line/icon-cleanup.png",
+      "usage": [
+        "icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-cleanup.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-cleanup.svg",
+      "category": "icons",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/icons/line/icon-cleanup.svg",
+      "usage": [
+        "icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-cleanup.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-community.png",
+      "category": "icons",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/icons/line/icon-community.png",
+      "usage": [
+        "icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-community.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-community.svg",
+      "category": "icons",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/icons/line/icon-community.svg",
+      "usage": [
+        "icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-community.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-map-pin.png",
+      "category": "icons",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/icons/line/icon-map-pin.png",
+      "usage": [
+        "icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-map-pin.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-map-pin.svg",
+      "category": "icons",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/icons/line/icon-map-pin.svg",
+      "usage": [
+        "icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-map-pin.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-nav-menu.png",
+      "category": "icons",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/icons/line/icon-nav-menu.png",
+      "usage": [
+        "icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-nav-menu.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-nav-menu.svg",
+      "category": "icons",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/icons/line/icon-nav-menu.svg",
+      "usage": [
+        "icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-nav-menu.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-status-error.png",
+      "category": "icons",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/icons/line/icon-status-error.png",
+      "usage": [
+        "icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-status-error.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-status-error.svg",
+      "category": "icons",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/icons/line/icon-status-error.svg",
+      "usage": [
+        "icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-status-error.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-status-info.png",
+      "category": "icons",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/icons/line/icon-status-info.png",
+      "usage": [
+        "icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-status-info.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-status-info.svg",
+      "category": "icons",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/icons/line/icon-status-info.svg",
+      "usage": [
+        "icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-status-info.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-status-warning.png",
+      "category": "icons",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/icons/line/icon-status-warning.png",
+      "usage": [
+        "icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-status-warning.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-status-warning.svg",
+      "category": "icons",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/icons/line/icon-status-warning.svg",
+      "usage": [
+        "icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-status-warning.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-tent.png",
+      "category": "icons",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/icons/line/icon-tent.png",
+      "usage": [
+        "icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-tent.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "icons.line.icon-tent.svg",
+      "category": "icons",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/icons/line/icon-tent.svg",
+      "usage": [
+        "icon"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "icons/line/icon-tent.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "ui-patterns.backgrounds.wcamper-canvas-subtle.png",
+      "category": "ui-patterns",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/ui-patterns/backgrounds/wcamper-canvas-subtle.png",
+      "usage": [
+        "ui-pattern"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "ui-patterns/backgrounds/wcamper-canvas-subtle.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "ui-patterns.backgrounds.wcamper-canvas-subtle.svg",
+      "category": "ui-patterns",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/ui-patterns/backgrounds/wcamper-canvas-subtle.svg",
+      "usage": [
+        "ui-pattern"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "ui-patterns/backgrounds/wcamper-canvas-subtle.svg",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "ui-patterns.dividers.wcamper-divider-dashed.png",
+      "category": "ui-patterns",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "png",
+      "path": "/ui-patterns/dividers/wcamper-divider-dashed.png",
+      "usage": [
+        "ui-pattern"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "ui-patterns/dividers/wcamper-divider-dashed.png",
+      "placeholder_only": false,
+      "notes": ""
+    },
+    {
+      "id": "ui-patterns.dividers.wcamper-divider-dashed.svg",
+      "category": "ui-patterns",
+      "status": "draft",
+      "version": "1.0.0-draft",
+      "format": "svg",
+      "path": "/ui-patterns/dividers/wcamper-divider-dashed.svg",
+      "usage": [
+        "ui-pattern"
+      ],
+      "owner": "wcamper-common",
+      "source_type": "generated-draft",
+      "source_ref": "wcamper-brand-assets-v1-draft.zip",
+      "normalized_from": "ui-patterns/dividers/wcamper-divider-dashed.svg",
+      "placeholder_only": false,
+      "notes": ""
     }
   ]
 }

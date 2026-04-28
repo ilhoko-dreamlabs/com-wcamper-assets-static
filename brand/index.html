@@ -1,79 +1,68 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Brand Assets Inspection</title>
+  <title>assets.wcamper.com | Brand inspection</title>
   <link rel="stylesheet" href="../styles.css">
+  <script src="../inspection.js" defer></script>
 </head>
-<body>
-  <header>
-    <div class="wrap">
-      <div class="top-nav">
+<body data-page="brand">
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand-lockup" href="../index.html">
+        <img src="/brand/wcamper/logos/wcamper-symbol-card.svg" alt="">
+        <div>
+          <strong>Brand inspection</strong>
+          <span>logo · favicon · app icon · ci board · og</span>
+        </div>
+      </a>
+      <nav class="top-nav" aria-label="inspection navigation">
         <a href="../index.html">home</a>
         <a href="./index.html">brand</a>
         <a href="../footer/index.html">footer</a>
         <a href="../og-social/index.html">og-social</a>
         <a href="../icons/index.html">icons</a>
-      </div>
-      <h1>Brand Assets</h1>
-      <p class="lead">manifest 기준 brand category + placeholder spec 상태를 함께 표시한다.</p>
+      </nav>
     </div>
   </header>
 
   <main class="wrap">
-    <section class="section grid grid-2">
-      <article class="card">
-        <h3>Primary Logo</h3>
-        <span class="badge draft">draft</span>
-        <div class="preview">
-          <img src="/brand/wcamper/logos/wcamper-logo-primary.png" alt="wcamper primary logo preview">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">brand assets</span>
+          <h1>Wcamper brand pack preview</h1>
+          <p class="lead">CI board, primary logo, favicon, app icon, OG 기준 자산을 한 번에 검수하는 페이지입니다. 현재 상태는 v1.0.0-draft입니다.</p>
         </div>
-        <div class="meta">
-          <div class="mono">asset id: brand.wcamper.logo.primary.png</div>
-          <div class="mono">path: /brand/wcamper/logos/wcamper-logo-primary.png</div>
-          <div class="mono">status: draft</div>
-        </div>
-      </article>
+        <aside class="hero-aside">
+          <article class="callout">
+            <h3>www.wcamper.com/brand/ci/ reference set</h3>
+            <p class="lead">아래 경로는 CI 페이지나 관련 정적 페이지에서 바로 참조 가능한 draft asset 경로입니다.</p>
+          </article>
+        </aside>
+      </div>
+    </section>
 
-      <article class="card">
-        <h3>Default Favicon</h3>
-        <span class="badge draft">draft</span>
-        <div class="preview">
-          <img src="/brand/wcamper/favicon/wcamper-favicon-default.png" alt="wcamper favicon preview">
+    <section class="section">
+      <div id="page-error"></div>
+      <div class="section-heading">
+        <div>
+          <h2>Featured preview</h2>
         </div>
-        <div class="meta">
-          <div class="mono">asset id: brand.wcamper.favicon.default.png</div>
-          <div class="mono">path: /brand/wcamper/favicon/wcamper-favicon-default.png</div>
-          <div class="mono">status: draft</div>
-        </div>
-      </article>
+        <p>새 primary logo, favicon, app icon, OG, CI board를 먼저 확인합니다.</p>
+      </div>
+      <div id="brand-featured-grid" class="grid grid-2"></div>
+    </section>
 
-      <article class="card">
-        <h3>App Icon 512</h3>
-        <span class="badge draft">draft</span>
-        <div class="preview">
-          <img src="/brand/wcamper/app-icons/wcamper-app-icon-512.png" alt="wcamper app icon 512 preview">
+    <section class="section">
+      <div class="section-heading">
+        <div>
+          <h2>Reference paths</h2>
         </div>
-        <div class="meta">
-          <div class="mono">asset id: brand.wcamper.appicon.512.png</div>
-          <div class="mono">path: /brand/wcamper/app-icons/wcamper-app-icon-512.png</div>
-          <div class="mono">status: draft</div>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3>Brand OG 1200x630</h3>
-        <span class="badge draft">draft</span>
-        <div class="preview">
-          <img src="/brand/wcamper/social/wcamper-og-default-1200x630.webp" alt="wcamper brand og preview">
-        </div>
-        <div class="meta">
-          <div class="mono">asset id: brand.wcamper.og.default.1200x630.webp</div>
-          <div class="mono">path: /brand/wcamper/social/wcamper-og-default-1200x630.webp</div>
-          <div class="mono">status: draft</div>
-        </div>
-      </article>
+        <p>draft 단계에서 바로 참조 가능한 root-relative path 정리입니다.</p>
+      </div>
+      <div id="brand-reference-list" class="path-list"></div>
     </section>
   </main>
 </body>

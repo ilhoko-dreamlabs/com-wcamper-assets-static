@@ -1,0 +1,30 @@
+{
+  "brand": "wcamper",
+  "version": "1.0.0-draft",
+  "colors": {
+    "wild_green": "#2A4B3C",
+    "earth_brown": "#9E673A",
+    "canvas_cream": "#F3ECD5",
+    "cyber_yellow": "#FCF641",
+    "electric_blue": "#00F2FF",
+    "ink": "#1D241F",
+    "soft_green": "#385F4E",
+    "muted": "#6D7A70",
+    "white": "#FFFFFF",
+    "black": "#111111"
+  },
+  "typography": {
+    "fontFamily": "Inter, Pretendard, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+  },
+  "layout": {
+    "desktopShellMaxWidth": "90vw",
+    "contentReadableMaxWidth": "760px"
+  },
+  "assets": {
+    "primaryLogo": "/brand/wcamper/logos/wcamper-logo-primary.svg",
+    "symbolCard": "/brand/wcamper/logos/wcamper-symbol-card.svg",
+    "favicon": "/brand/wcamper/favicon/favicon.ico",
+    "appIcon512": "/brand/wcamper/app-icons/wcamper-app-icon-512.png",
+    "ogDefault": "/brand/wcamper/og/wcamper-og-default-1200x630.webp"
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Wcamper identity asset">
+<rect width="1200" height="800" fill="#F3ECD5"/>
+
+<g opacity="0.22" stroke="#2A4B3C" stroke-width="1.5">
+<path d="M 0 0 L -300 800"/><path d="M 80 0 L -220 800"/><path d="M 160 0 L -140 800"/><path d="M 240 0 L -60 800"/><path d="M 320 0 L 20 800"/><path d="M 400 0 L 100 800"/><path d="M 480 0 L 180 800"/><path d="M 560 0 L 260 800"/><path d="M 640 0 L 340 800"/><path d="M 720 0 L 420 800"/><path d="M 800 0 L 500 800"/><path d="M 880 0 L 580 800"/><path d="M 960 0 L 660 800"/><path d="M 1040 0 L 740 800"/><path d="M 1120 0 L 820 800"/><path d="M 1200 0 L 900 800"/><path d="M 1280 0 L 980 800"/><path d="M 1360 0 L 1060 800"/><path d="M 1440 0 L 1140 800"/><path d="M 1520 0 L 1220 800"/>
+</g>
+<g opacity="0.12" fill="#9E673A">
+<circle cx="0" cy="0" r="3"/><circle cx="137" cy="241" r="3"/><circle cx="274" cy="482" r="3"/><circle cx="411" cy="723" r="3"/><circle cx="548" cy="164" r="3"/><circle cx="685" cy="405" r="3"/><circle cx="822" cy="646" r="3"/><circle cx="959" cy="87" r="3"/><circle cx="1096" cy="328" r="3"/><circle cx="33" cy="569" r="3"/><circle cx="170" cy="10" r="3"/><circle cx="307" cy="251" r="3"/><circle cx="444" cy="492" r="3"/><circle cx="581" cy="733" r="3"/><circle cx="718" cy="174" r="3"/><circle cx="855" cy="415" r="3"/><circle cx="992" cy="656" r="3"/><circle cx="1129" cy="97" r="3"/><circle cx="66" cy="338" r="3"/><circle cx="203" cy="579" r="3"/><circle cx="340" cy="20" r="3"/><circle cx="477" cy="261" r="3"/><circle cx="614" cy="502" r="3"/><circle cx="751" cy="743" r="3"/>
+</g>
+</svg>

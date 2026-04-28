@@ -1,103 +1,58 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Icon Assets Inspection</title>
+  <title>assets.wcamper.com | Icon inspection</title>
   <link rel="stylesheet" href="../styles.css">
+  <script src="../inspection.js" defer></script>
 </head>
-<body>
-  <header>
-    <div class="wrap">
-      <div class="top-nav">
+<body data-page="icons">
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand-lockup" href="../index.html">
+        <img src="/brand/wcamper/logos/wcamper-symbol-card.svg" alt="">
+        <div>
+          <strong>Line icon inspection</strong>
+          <span>runtime-ready svg set</span>
+        </div>
+      </a>
+      <nav class="top-nav" aria-label="inspection navigation">
         <a href="../index.html">home</a>
         <a href="../brand/index.html">brand</a>
         <a href="../footer/index.html">footer</a>
         <a href="../og-social/index.html">og-social</a>
         <a href="./index.html">icons</a>
-      </div>
-      <h1>Runtime-Ready Icon Grid</h1>
-      <p class="lead">broken preview는 숨기지 않고 그대로 표시한다.</p>
+      </nav>
     </div>
   </header>
 
   <main class="wrap">
-    <section class="section grid grid-3">
-      <article class="card">
-        <h3>Menu</h3>
-        <span class="badge draft">draft</span>
-        <div class="preview">
-          <img src="/icons/line/icon-nav-menu.svg" alt="icon nav menu">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">icon set</span>
+          <h1>Wcamper line icon grid</h1>
+          <p class="lead">현재 pack에 포함된 line icon set의 SVG 기준 preview입니다. 모든 항목은 draft 상태로 유지합니다.</p>
         </div>
-        <div class="meta">
-          <div class="mono">asset id: icons.line.nav.menu.svg</div>
-          <div class="mono">file: icon-nav-menu.svg</div>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3>External Link</h3>
-        <span class="badge draft">draft</span>
-        <div class="preview">
-          <img src="/icons/line/icon-action-external-link.svg" alt="icon external link">
-        </div>
-        <div class="meta">
-          <div class="mono">asset id: icons.line.action.external-link.svg</div>
-          <div class="mono">file: icon-action-external-link.svg</div>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3>Status Info</h3>
-        <span class="badge draft">draft</span>
-        <div class="preview">
-          <img src="/icons/line/icon-status-info.svg" alt="icon status info">
-        </div>
-        <div class="meta">
-          <div class="mono">asset id: icons.line.status.info.svg</div>
-          <div class="mono">file: icon-status-info.svg</div>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3>Status Warning</h3>
-        <span class="badge draft">draft</span>
-        <div class="preview">
-          <img src="/icons/line/icon-status-warning.svg" alt="icon status warning">
-        </div>
-        <div class="meta">
-          <div class="mono">asset id: icons.line.status.warning.svg</div>
-          <div class="mono">file: icon-status-warning.svg</div>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3>Status Error</h3>
-        <span class="badge draft">draft</span>
-        <div class="preview">
-          <img src="/icons/line/icon-status-error.svg" alt="icon status error">
-        </div>
-        <div class="meta">
-          <div class="mono">asset id: icons.line.status.error.svg</div>
-          <div class="mono">file: icon-status-error.svg</div>
-        </div>
-      </article>
+        <aside class="hero-aside">
+          <article class="callout">
+            <h3>Inspection note</h3>
+            <p class="lead">icon card는 SVG runtime-ready 자산만 표시합니다. preview와 manifest path가 함께 보여야 합니다.</p>
+          </article>
+        </aside>
+      </div>
     </section>
 
-    <section class="section card">
-      <h2>Placeholder-Only Icon Areas</h2>
-      <div class="grid grid-2">
-        <article class="card">
-          <h3>map</h3>
-          <span class="badge placeholder">placeholder spec only</span>
-          <div class="mono">spec: /icons/map/README-placeholder.md</div>
-        </article>
-        <article class="card">
-          <h3>status (extended set)</h3>
-          <span class="badge placeholder">placeholder spec only</span>
-          <div class="mono">spec: /icons/status/README-placeholder.md</div>
-        </article>
+    <section class="section">
+      <div id="page-error"></div>
+      <div class="section-heading">
+        <div>
+          <h2>Icons</h2>
+        </div>
+        <p>menu, external-link, cleanup, community, map-pin, tent, status icon을 포함합니다.</p>
       </div>
+      <div id="icon-grid" class="icon-grid"></div>
     </section>
   </main>
 </body>
