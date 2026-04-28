@@ -6,6 +6,13 @@
 - 문서 기준선 관리와 실제 바이너리 자산 저장소 관리를 분리한다.
 - `assets.wcamper.com`에서 공통 asset host + human inspection page를 함께 제공하는 것을 목표로 한다.
 
+## Current Approved Baseline
+- 현재 approved baseline: `Wcamper Brand / CI / Asset Pack v1.0`
+- approval date: `2026-04-29`
+- approved by: `H-Human`
+- approval note: `Approved for current wcamper common asset usage.`
+- usage scope: `www.wcamper.com`을 포함한 wcamper 공통 사이트군의 브랜드, favicon, OG, footer attribution, icon, token 참조 기준
+
 ## Structure Overview
 - `assets-manifest.json`: 자산 registry 원본 데이터
 - `assets-index.md`: 카테고리/P0/P1 인덱스
@@ -22,6 +29,7 @@
 - 로컬 복사본을 운영 기준으로 삼지 않는다.
 - 미확정 자산은 placeholder 상태로 명시하고 runtime 반영 완료로 취급하지 않는다.
 - placeholder-only 자산은 preview/registry 문맥용이며 runtime-ready final asset이 아니다.
+- current approved baseline은 `assets.wcamper.com` 기준으로 제공하며, 사이트 repo는 이 host를 공통 운영 자산 기준으로 우선 참조한다.
 
 ## Current Source Mapping (Key Runtime Assets)
 - Footer attribution PNG는 `com-wcamper-spotcare-landing`의 `_data/landing.yml` 기준 경로를 source로 사용한다.

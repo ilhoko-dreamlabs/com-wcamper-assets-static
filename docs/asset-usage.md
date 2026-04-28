@@ -3,7 +3,9 @@
 ## 1) Common URL Reference Principle
 - 사이트 repo는 공통 asset을 중앙 저장소 기준 URL로 참조한다.
 - 운영 URL baseline은 `assets.wcamper.com`을 대상으로 설계한다.
-- 현재 문서는 bootstrap 단계 기준이며 runtime 반영 완료를 의미하지 않는다.
+- 현재 approved baseline은 `assets.wcamper.com` 기준으로 운영 사용 가능하다.
+- approval date: `2026-04-29`
+- approved by: `H-Human`
 
 ## 2) No Local Copy Principle
 - 사이트 repo에 공통 asset을 복사해 소유하는 방식은 금지한다.

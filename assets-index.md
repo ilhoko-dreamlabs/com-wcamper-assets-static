@@ -7,6 +7,13 @@
 - `icons`: 라인/상태/맵 아이콘
 - `ui-patterns`: 텍스처, 배경, 구분선
 
+## Current Approved Baseline
+- version: `1.0.0`
+- approved date: `2026-04-29`
+- approved by: `H-Human`
+- status: `approved`
+- usage scope: `assets.wcamper.com`를 통해 wcamper 공통 사이트군에 우선 배포
+
 ## P0 Assets (Bootstrap Priority)
 - `brand.wcamper.logo.primary.png`
 - `brand.wcamper.favicon.default.png`

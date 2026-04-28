@@ -70,13 +70,14 @@ function fileCard(asset, title, description) {
   `;
 }
 
-function renderHome(assets) {
+function renderHome(manifest, assets) {
   const counts = categoryCounts(assets);
   const statuses = statusCounts(assets);
+  const baselineStatus = manifest.status || 'approved';
   document.getElementById('summary-metrics').innerHTML = `
     <article class="metric-card"><strong>${assets.length}</strong><span>total assets</span></article>
-    <article class="metric-card"><strong>${statuses.draft || 0}</strong><span>draft entries</span></article>
     <article class="metric-card"><strong>${statuses.approved || 0}</strong><span>approved entries</span></article>
+    <article class="metric-card"><strong>${statuses.draft || 0}</strong><span>draft entries</span></article>
   `;
   document.getElementById('home-categories').innerHTML = [
     ['brand', '/brand/', 'logo · favicon · app icon · ci board'],
@@ -91,13 +92,13 @@ function renderHome(assets) {
       <p>${text}</p>
       <div class="category-card__meta">
         <span class="mono">entries: ${counts[key] || 0}</span>
-        <span class="badge draft">draft</span>
+        <span class="badge ${baselineStatus}">${baselineStatus}</span>
       </div>
     </article>
   `).join('');
 
   const featured = [
-    [byPath(assets, '/brand/wcamper/logos/wcamper-logo-primary.svg'), 'Primary Logo', '새 draft 기준 primary logo'],
+    [byPath(assets, '/brand/wcamper/logos/wcamper-logo-primary.svg'), 'Primary Logo', '현재 approved baseline primary logo'],
     [byPath(assets, '/brand/wcamper/ci/wcamper-identity-guidelines-board.png'), 'CI Board', 'brand/ci 페이지와 검수용 보드'],
     [byPath(assets, '/brand/wcamper/app-icons/wcamper-app-icon-512.png'), 'App Icon 512', '앱/웹앱 대표 아이콘'],
     [byPath(assets, '/brand/wcamper/og/wcamper-og-default-1200x630.webp'), 'OG Default', '대표 OG 기본안']
@@ -105,8 +106,8 @@ function renderHome(assets) {
   document.getElementById('home-featured').innerHTML = featured.map(([asset, title, description]) => assetCard(asset, { title, description, previewClass: asset.path.includes('/og/') ? 'preview--og' : '' })).join('');
 
   const supportAssets = [
-    [byPath(assets, '/ui-patterns/backgrounds/wcamper-canvas-subtle.svg'), 'Canvas Background Pattern', '배경 패턴 draft'],
-    [byPath(assets, '/ui-patterns/dividers/wcamper-divider-dashed.svg'), 'Divider Pattern', '분리선 패턴 draft'],
+    [byPath(assets, '/ui-patterns/backgrounds/wcamper-canvas-subtle.svg'), 'Canvas Background Pattern', '배경 패턴 approved baseline'],
+    [byPath(assets, '/ui-patterns/dividers/wcamper-divider-dashed.svg'), 'Divider Pattern', '분리선 패턴 approved baseline'],
     [byPath(assets, '/css/wcamper-tokens.css'), 'CSS Tokens', '웹 공통 토큰 파일'],
     [byPath(assets, '/css/wcamper-tokens.json'), 'JSON Tokens', '디자인 핸드오프용 토큰 파일']
   ].filter(([asset]) => asset);
@@ -192,7 +193,7 @@ function renderOg(assets) {
   const cards = order.map((path) => byPath(assets, path)).filter(Boolean);
   document.getElementById('og-grid').innerHTML = cards.map((asset) => assetCard(asset, {
     title: asset.path.split('/').slice(-1)[0],
-    description: '1200x630 draft preview',
+    description: '1200x630 approved preview',
     previewClass: 'preview--og'
   })).join('');
 }
@@ -201,7 +202,7 @@ function renderIcons(assets) {
   const icons = assets.filter((asset) => asset.category === 'icons' && asset.format === 'svg').sort((a, b) => a.path.localeCompare(b.path));
   document.getElementById('icon-grid').innerHTML = icons.map((asset) => `
     <article class="card icon-card">
-      <span class="badge draft">draft</span>
+      <span class="badge ${asset.status}">${asset.status}</span>
       <h3>${asset.path.split('/').slice(-1)[0].replace('.svg', '')}</h3>
       <div class="preview">
         <img src="${asset.path}" alt="${asset.id}">
@@ -225,7 +226,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const manifest = await loadManifest();
     const assets = manifest.assets || [];
     const page = document.body.dataset.page;
-    if (page === 'home') renderHome(assets);
+    if (page === 'home') renderHome(manifest, assets);
     if (page === 'brand') renderBrand(assets);
     if (page === 'footer') renderFooter(assets);
     if (page === 'og-social') renderOg(assets);

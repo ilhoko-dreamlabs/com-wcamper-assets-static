@@ -12,6 +12,8 @@
   --electric: #00f2ff;
   --draft-bg: #fff4db;
   --draft-fg: #8a5a00;
+  --approved-bg: #dff3e8;
+  --approved-fg: #1d5c3b;
   --placeholder-bg: #eceff4;
   --placeholder-fg: #3f4a5a;
   --shadow: 0 18px 38px rgba(24, 32, 24, 0.08);
@@ -255,6 +257,11 @@ h3 {
 .badge.draft {
   background: var(--draft-bg);
   color: var(--draft-fg);
+}
+
+.badge.approved {
+  background: var(--approved-bg);
+  color: var(--approved-fg);
 }
 
 .badge.placeholder {
